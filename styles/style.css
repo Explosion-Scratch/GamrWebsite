@@ -32,10 +32,7 @@ body, input, html, button {
 .topnav a::after {
 	content: ' | ';
 } 
-/*-----------------------------------------------------------------------\
-|            Colors:                                                     |
-|   White, WhiteSmoke, Black, rgb(0, 107, 107), rgb(95, 150, 0)          |
-\_______________________________________________________________________*/
+
 .topnav a {
   text-decoration: none;
   margin-right: 5px;
