@@ -38,13 +38,16 @@ body, input, html, button {
 } 
 
 .topnav a {
+	transition: background-size 0.4s ease;
 	text-decoration: none;
 	background-repeat: no-repeat;
 	background-size: 0% 2px;
 	background-position: 0 88%;
 	background-image: linear-gradient(to right, red,yellow);
 }
-
+.topnav a:hover {
+	background-size: 100% 2px;
+}
 
 .content {
   margin-top: 60px;
