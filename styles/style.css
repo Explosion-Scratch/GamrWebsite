@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200');
-
+::root {
+	--accents:  rgb(95, 150, 0);
+	--accents-transparent: 
+}
 body, input, html, button {
 	font-family: Poppins, sans-serif;
 }
@@ -39,7 +42,7 @@ body, input, html, button {
 }
 
 blockquote {
-  border-left: 10px solid rgb(95, 150, 0);
+  border-left: 10px solid;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   background-color: rgba(95, 150, 0, 0.45);
