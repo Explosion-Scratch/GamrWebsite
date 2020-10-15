@@ -50,7 +50,7 @@ body, input, html, button {
 	background-repeat: no-repeat;
 	background-size: 0% 2px;
 	background-position: 0 88%;
-	background-image: linear-gradient(to right, transparent, var(--accents-transparent), var(--accents), var(--accents-transparent), transparent);
+	background-image: linear-gradient(to right, var(--accents), var(--accents-transparent));
 }
 .topnav a:hover {
 	background-size: 100% 2px;
