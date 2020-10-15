@@ -52,7 +52,7 @@ body, input, html, button {
 	text-decoration: none;
 }
 .content a {
-	background-image: var(--links);
+	background-image: linear-gradient(120deg,var(--links)  0%, var(--links) 100%);
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
   background-position: 0 88%;
