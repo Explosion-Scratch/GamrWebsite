@@ -55,10 +55,12 @@ body, input, html, button {
 .content a {
 	background-image: linear-gradient(120deg,var(--links)  0%, var(--links-color-2) 100%);
   background-repeat: no-repeat;
-  background-size: 100% 0.2em;
+  background-size: 100% 2px;
   background-position: 0 88%;
 }
-
+.content a:hover {
+	background-size: 100% 100%;
+}
 blockquote {
   border-left: 10px solid var(--accents);
   margin: 1.5em 10px;
