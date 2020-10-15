@@ -1,3 +1,4 @@
 function darkMode() {
-	this.classList.toggle('dark-mode');
+	element = document.querySelector("*");
+	element.classList.toggle('dark-mode');
 };
