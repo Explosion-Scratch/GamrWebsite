@@ -6,6 +6,10 @@
 	--text: rgb(26,26,26);
 	--box-shadow: rgba(0,0,0,.25);
 }
+* {
+	color: var(--text);
+	background: var(--background);
+}
 body, input, html, button {
 	font-family: Poppins, sans-serif;
 }
