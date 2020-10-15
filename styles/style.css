@@ -32,10 +32,7 @@ body, input, html, button {
 	width: 90%;
 	margin: 0 auto;
 }
-.topnav a::after {
-	content: ' | ';
-	color: var(--text) !important;
-} 
+
 
 .topnav a {
 	transition: background-size 0.4s ease;
