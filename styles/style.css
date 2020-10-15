@@ -2,6 +2,9 @@
 :root {
 	--accents:  rgb(95, 150, 0);
 	--accents-transparent: rgba(93, 147, 0, 0.451); 
+	--background: whitesmoke;
+	--text: rgb(26,26,26);
+	--box-shadow: 
 }
 body, input, html, button {
 	font-family: Poppins, sans-serif;
@@ -9,14 +12,12 @@ body, input, html, button {
 
 .topnav {
   clear: both;
-  color: black;
   overflow: hidden;
   float: left;
   top: 0;
   border-radius: 0.5rem;
   position: fixed;
-  background-color: whitesmoke;
-  box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 20px var(--box-shadow);
   padding: 10px 20px;
 }
 .topnav a::after {
@@ -27,7 +28,6 @@ body, input, html, button {
 |   White, WhiteSmoke, Black, rgb(0, 107, 107), rgb(95, 150, 0)          |
 \_______________________________________________________________________*/
 .topnav a {
-  color: rgb(36, 36, 36);
   text-decoration: none;
   margin-right: 5px;
   transition: color 0.2s ease;
