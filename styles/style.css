@@ -54,6 +54,7 @@ body, input, html, button {
 	width: 3px;
 	height: 2px;
 	background-color: var(--links);
+	background-size: 100% 2px;
 }
 
 blockquote {
