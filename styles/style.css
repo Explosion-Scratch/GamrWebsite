@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200');
+
+body, input, html, button {
+	font-family: Poppins, sans-serif;
+}
+
+.topnav {
+  clear: both;
+  color: black;
+  overflow: hidden;
+  float: left;
+  top: 0;
+  border-radius: 0.5rem;
+  position: fixed;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.25);
+  padding: 10px 20px;
+}
+.topnav a::after {
+	content: ' | ';
+} 
+/*-----------------------------------------------------------------------\
+|            Colors:                                                     |
+|   White, WhiteSmoke, Black, rgb(0, 107, 107), rgb(95, 150, 0)          |
+\_______________________________________________________________________*/
+.topnav a {
+  color: rgb(36, 36, 36);
+  text-decoration: none;
+  margin-right: 5px;
+  transition: color 0.2s ease;
+}
+
+.content {
+  margin-top: 60px;
+}
+
+.topnav a:hover {
+  color: rgb(0, 107, 207);
+}
+
+blockquote {
+  border-left: 10px solid rgb(95, 150, 0);
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  background-color: rgba(95, 150, 0, 0.45);
+  color: rgb(0, 0, 0);
+  display: inline;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+blockquote:before {
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
