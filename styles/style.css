@@ -6,6 +6,7 @@
 	--background: whitesmoke;
 	--text: rgb(26,26,26);
 	--box-shadow: rgba(0,0,0,.25);
+	--links: rgb(20,20,255);
 }
 * {
 	color: var(--text);
@@ -48,7 +49,7 @@ body, input, html, button {
 }
 
 .topnav a:hover {
-  color: rgb(0, 107, 207);
+  color:var(--links);
 }
 
 blockquote {
