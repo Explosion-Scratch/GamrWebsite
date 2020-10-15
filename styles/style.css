@@ -46,7 +46,7 @@ body, input, html, button {
 	padding: 40px;
 }
 
-.topnav a:hover {
+.content a:hover {
   color: var(--links);
 }
 
