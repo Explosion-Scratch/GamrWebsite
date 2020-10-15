@@ -9,6 +9,15 @@
 	--links: rgb(150, 255, 136);
 	--links-color-2: rgb(136, 255, 172);
 }
+.dark-mode:root {
+	--accents:  rgb(141, 197, 45);
+	--accents-transparent: rgba(150, 207, 51, 0.451); 
+	--background: #101010;
+	--text: whitesmoke;
+	--box-shadow: rgba(0,0,0,.25);
+	--links: rgba(122, 245, 106, 0.726);
+	--links-color-2: rgba(99, 245, 143, 0.712);
+}
 * {
 	color: var(--text);
 	background: var(--background);
