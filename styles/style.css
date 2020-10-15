@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200');
 :root {
-	//These are CSS variables. They can be accessed using 'var(--variable name);'
+	/* These are CSS variables. They can be accessed using 'var(--variable name);' */
 	--accents:  rgb(95, 150, 0);
 	--accents-transparent: rgba(93, 147, 0, 0.451); 
 	--background: whitesmoke;
@@ -10,7 +10,7 @@
 * {
 	color: var(--text);
 	background: var(--background);
-	//Just some initial styling to keep stuff nice.
+	/* Just some initial styling to keep stuff nice. */
 	padding: none;
 	margin: none;
 }
