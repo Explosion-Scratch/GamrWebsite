@@ -39,11 +39,7 @@ body, input, html, button {
 .topnav a {
 	text-decoration: none;
 }
-.content a {
-  text-decoration: none;
-  margin-right: 5px;
-  transition: color 0.2s ease;
-}
+
 
 .content {
   margin-top: 60px;
@@ -53,8 +49,11 @@ body, input, html, button {
 	padding: 40px;
 }
 
-.content a:hover {
-  color: var(--links);
+.content a::after {
+  content: '';
+	width: 3px;
+	height: 2px;
+	background-color: var(--links);
 }
 
 blockquote {
