@@ -52,8 +52,10 @@ body, input, html, button {
 	text-decoration: none;
 }
 .content a {
-	background-color: var(--links);
-	background-size: 2px 2px;
+	background-image: var(--links);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
 }
 
 blockquote {
