@@ -46,6 +46,8 @@ body, input, html, button {
 .content {
   margin-top: 60px;
 	max-width: 600px;
+	/* Center the content */
+	margin: 0 auto;
 	padding: 40px;
 }
 
