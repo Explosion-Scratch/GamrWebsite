@@ -39,6 +39,10 @@ body, input, html, button {
 
 .topnav a {
 	text-decoration: none;
+	background-repeat: no-repeat;
+	background-size: 0% 2px;
+	background-position: 0 88%;
+	background-image: linear-gradient(to right, red,yellow);
 }
 
 
