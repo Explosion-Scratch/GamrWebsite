@@ -6,8 +6,8 @@
 	--background: whitesmoke;
 	--text: rgb(26,26,26);
 	--box-shadow: rgba(0,0,0,.25);
-	--links: rgb(136, 136, 255);
-	--links-color-2: rgb(136, 221, 255);
+	--links: rgb(150, 255, 136);
+	--links-color-2: rgb(136, 255, 172);
 }
 * {
 	color: var(--text);
@@ -53,7 +53,7 @@ body, input, html, button {
 	text-decoration: none;
 }
 .content a {
-	background-image: linear-gradient(120deg,var(--links)  0%, var(--accents) 100%);
+	background-image: linear-gradient(120deg,var(--links)  0%, var(--links-color-2) 100%);
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
   background-position: 0 88%;
