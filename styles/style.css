@@ -34,7 +34,7 @@ body, input, html, button {
 	color: var(--text) !important;
 } 
 
-.topnav a {
+.content a {
   text-decoration: none;
   margin-right: 5px;
   transition: color 0.2s ease;
