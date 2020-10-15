@@ -43,6 +43,8 @@ body, input, html, button {
 
 .content {
   margin-top: 60px;
+	max-width: 600px;
+	padding: 40px;
 }
 
 .topnav a:hover {
