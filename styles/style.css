@@ -35,7 +35,7 @@ body, input, html, button {
 
 
 .topnav a {
-	padding: 5px 14px;
+	margin: 5px 14px;
 	transition: background-size 0.4s ease;
 	text-decoration: none;
 	background-repeat: no-repeat;
