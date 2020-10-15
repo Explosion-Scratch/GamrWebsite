@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200');
 :root {
 	/* These are CSS variables. They can be accessed using 'var(--variable name);' */
-	--accents:  rgb(95, 150, 0);
-	--accents-transparent: rgba(93, 147, 0, 0.451); 
+	--accents:  rgb(141, 197, 45);
+	--accents-transparent: rgba(150, 207, 51, 0.451); 
 	--background: whitesmoke;
 	--text: rgb(26,26,26);
 	--box-shadow: rgba(0,0,0,.25);
@@ -41,7 +41,7 @@ body, input, html, button {
 	background-repeat: no-repeat;
 	background-size: 0% 2px;
 	background-position: 0 88%;
-	background-image: linear-gradient(to right, red,yellow);
+	background-image: linear-gradient(to right, var(--accents), var(--accents-transparent));
 }
 .topnav a:hover {
 	background-size: 100% 2px;
