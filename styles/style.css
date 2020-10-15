@@ -48,13 +48,12 @@ body, input, html, button {
 	margin: 0 auto;
 	padding: 40px;
 }
-
-.content a::after {
-  content: '';
-	width: 3px;
-	height: 2px;
+.content a {
+	text-decoration: none;
+}
+.content a {
 	background-color: var(--links);
-	background-size: 100% 2px;
+	background-size: 2px 2px;
 }
 
 blockquote {
