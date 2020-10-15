@@ -34,6 +34,9 @@ body, input, html, button {
 	color: var(--text) !important;
 } 
 
+.topnav a {
+	text-decoration: none;
+}
 .content a {
   text-decoration: none;
   margin-right: 5px;
