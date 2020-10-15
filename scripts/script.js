@@ -1,3 +1,3 @@
 function darkMode() {
-	document.classList.toggle('dark-mode');
+	this.classList.toggle('dark-mode');
 };
