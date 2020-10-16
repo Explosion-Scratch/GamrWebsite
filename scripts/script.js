@@ -2,7 +2,7 @@
 window.onload = function(){
 	if (window.localStorage.getItem('dark_mode') == 'true') {
 		darkMode();
-}
+	}
 }
 
 function darkMode() {
