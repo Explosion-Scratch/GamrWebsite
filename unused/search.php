@@ -19,7 +19,7 @@
     <a href="#">My Account</a>
     </div>
 
-	<div class="content">you can put php commands inside php tags :)
+	<div class="content">you can put php commands inside php tags :-)
 
 	<?php
 	echo "How to make multiline comments";

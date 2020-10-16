@@ -36,7 +36,7 @@ You are seeing the inner workings of the Gamr Official Website.
 
 ## Saved Code
 
-```
+```html
 <input type="search" id="search" name="query" placeholder="Search" />
 <button onclick="getSearched();">Search</button>
 ```
